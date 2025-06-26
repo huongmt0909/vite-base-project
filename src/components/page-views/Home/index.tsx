@@ -1,12 +1,11 @@
-import { storage } from "../../../utils/storage";
-import { ROUTER_PATHS } from "../../../constants/router-paths";
+import { storage } from "src/utils/storage";
 import { useNavigate } from "react-router-dom";
 import { useGetBoughSelling } from "./api";
-import BellIcon from "../../../assets/svgs/bell_icon.svg?react";
+import BellIcon from "src/assets/svgs/bell_icon.svg?react";
+import { ROUTER_PATHS } from "src/constants/router-paths";
 
 const HomePageView = () => {
   const navigate = useNavigate();
-
   const { data: boughtSelling } = useGetBoughSelling();
 
   const handleLogout = () => {
