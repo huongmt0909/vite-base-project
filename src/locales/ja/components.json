@@ -1,0 +1,9 @@
+{
+  "formField": {
+    "required": "{{field}}は必須です",
+    "email": "メールアドレスの形式が不正です",
+    "password": "パスワードは8文字以上で入力してください",
+    "minLength": "{{field}}は{{length}}文字以上で入力してください",
+    "maxLength": "{{field}}は{{length}}文字以内で入力してください"
+  }
+}
