@@ -27,7 +27,6 @@ const LoginPageView = () => {
     <div>
       <h1>{t("login")}</h1>
       <div>description</div>
-      <div>description</div>
 
       <FormProvider {...methods}>
         <form>
