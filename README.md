@@ -1,4 +1,4 @@
-# Project Setup
+# Project Setupa
 
 This project requires **Node.js version 22.17.0**.
 
