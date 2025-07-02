@@ -21,4 +21,4 @@ This project requires **Node.js version 22.17.0**.
 
 ---
 
-Make sure you are using the correct Node.js version for compatibility.
+Make sure you are using the correct Node.js version for compatibility
